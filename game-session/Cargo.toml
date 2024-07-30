@@ -1,0 +1,16 @@
+[package]
+name = "game-session"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstd.workspace = true
+session-io.path = "session-io"
+
+[dev-dependencies]
+gtest.workspace = true
+session-io.path = "session-io"
+
+[build-dependencies]
+gear-wasm-builder.workspace = true
+session-io.path = "session-io"
